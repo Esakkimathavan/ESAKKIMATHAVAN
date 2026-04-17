@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>QUERY SELECTOR</h1>
+    <div id="content1">
+    <h1 class="files document">the  files document in div</h1>
+    <p class="files document">the files document in div</p>
+    </div>
+    <p>click the button in the query selctor</p>
+    <button onclick="myFunction()">check this</button>
+    <script>
+        function myFunction(){
+            var x=document.getElementById("content")
+            x.querySelector("filesdocument").innerHTML("documents")
+        }
+    </script>
+</body>
+</html>

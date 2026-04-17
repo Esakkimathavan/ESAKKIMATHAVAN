@@ -1,0 +1,5 @@
+--heading-bg:#AF7EEB;
+--pure-white:#ffffff;
+--btn-background:#6413c7;
+--green-clr:#00912e;
+--red-clr:#ff4c4c;

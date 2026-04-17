@@ -1,0 +1,2 @@
+A full-stack JavaScript developer is responsible for both the front-end (client-side) and back-end (server side) development of web applications. In this program, you’ll learn to build, deploy, test, run, and manage cloud-native full-stack applications.
+<p>the <big>JavaScript full stack</big> developer of the <b>web-developer</b>.</p>

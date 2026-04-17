@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">the setInterval&setTimeout</h1>
+    <script>
+        setInterval(color,7000)
+        function color(){
+            var body=document.getElementById("heading")
+            body.style.backgroundColor=body.style.backgroundColor=="red"? "yellow":"red"
+        }
+    </script>
+</body>
+</html>

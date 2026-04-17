@@ -1,0 +1,75 @@
+/* imp! CSS RESET AND BODY RESET PROPERTIES*/
+html{
+    font-size: 10px;
+}
+body{
+    background-color: rgb(141, 250, 141);
+    font-family: 'Times New Roman', Times, serif;
+    min-height:100px;
+    margin:3rem 0px;
+}
+p{
+   margin-bottom:0px;
+ 
+}
+:root{
+    --heading-bg:#AF7EEB;
+--pure-white:#ffffff;
+--btn-background:#6413c7;
+--green-clr:#00912e;
+--red-clr:#ff4c4c;
+}
+/* imp TO-DO-LIST MAIN CONTAINER CSS*/
+main-container-div{
+    background-color: var(--pure-white);
+    max-width:100px;
+    width:90%;
+}
+.heading-div{
+    background-color:var(--heading-bg);
+    padding:20px;
+    color:var(--pure-white);
+     border-radius: 0.5px  0.5px  0px 0px;
+}
+.heading-div h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.input-div input{
+    border-radius: 1px;
+    width:100px;
+    padding:20px  0px;
+    border:0px;
+    outline: 0px;
+    padding-left:20px;
+    font-size:20px;
+    box-shadow:  rgb(0,0,0,0.1)0 1 rem 5rem;}
+.submit-btn{
+ border:0px;
+ padding: 1px 2.5px;
+ border-radius:5px;
+ color:var(--pure-white);
+ background-color: var(--btn-background);
+ opacity:0.8;
+ transition: all 1.5s ease;
+}
+.submit-btn:hover{
+    opacity:1;
+    transition:scale(1.5sec ease);
+}
+.subimit-btn .fa-pencil{
+    font-size:20px;
+}
+.error-msg-div{
+  border:2px  solid var(--red-clr) ;
+  background-color:rgb(247, 150, 150);
+  color:var(--red-clr);
+   width:100px;
+   margin:10px  auto 30px;
+}
+@media (max-width:700px){
+     error -msg-div{
+        font-size:20px;
+        
+     }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h>The window object</h>
+    <h1>the session storage object</h1>
+    <p>a counter</p>
+    <p id="content"></p>
+    <p><button onclick="clickcounter()" type="button">count</button></p>
+    <script>
+        function clickcounter(){
+            if (sessionStorage.clickcount){
+                sessionStorage.clickcount=Number(sessionStorage.clickcount)+1;
+            }
+            else{
+                sessionStorage.clickcount=1;
+            }
+            document.getElementById("content").innerHTML=sessionStorage.clickcount;
+        }
+    </script>
+</body>
+</html>
